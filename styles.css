@@ -1,0 +1,29 @@
+.input {
+    padding: 10px;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.inputWrapper {
+    display: flex;
+}
+
+button {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid black;
+    border-left: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(227, 227, 227, 0.979);
+}
+
+#responseElement {
+    /* padding: 10px; */
+    margin-top: 10px;
+}
