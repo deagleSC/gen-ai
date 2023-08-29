@@ -21,9 +21,12 @@ npm start
 ```
 
 ### Go to "Manage Extensions"
+![Manage Extensions screenshot](./manage_extensions.png "a title")
 
 ### Turn on Developer mode
+![Developer mode screenshot](./developer_mode.png "a title")
 
 ### Select "Load unpacked"
+![load_unpacked screenshot](./load_unpacked.png "a title")
 
-Use GenAI from your extensions menu
+Use the GenAI chrome extension from your extensions menu.
