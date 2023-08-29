@@ -24,6 +24,9 @@ button:hover {
 }
 
 #responseElement {
-    /* padding: 10px; */
     margin-top: 10px;
+}
+
+#error {
+    color: red;
 }

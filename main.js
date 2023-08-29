@@ -1,6 +1,7 @@
 const generateButton = document.getElementById("generateButton")
 const input = document.getElementById("inputText")
 const response = document.getElementById("responseElement")
+const errorMessage = document.getElementById("error")
 
 generateButton.onclick = async () => {
     try {
@@ -9,8 +10,9 @@ generateButton.onclick = async () => {
         })
         const output = await res.json()
 
-        response.innerHTML = "<b>GenAI: </b>" + await output
+        response.innerHTML = `<b>GenAI: </b> ${await output}`
     } catch (error) {
         console.log(error)
+        errorMessage.innerHTML = `Error: ${error.message}`
     }
 }
